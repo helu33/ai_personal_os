@@ -1,0 +1,24 @@
+# Obsidian session state (you can still open this folder as a vault)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/workspaces.json
+.obsidian/workspace*.json
+
+# Secrets and local credentials
+.env
+.env.*
+*.pem
+*.key
+*.token
+secrets/
+**/credentials*
+**/secrets.yaml
+**/secrets.yml
+
+# OS junk
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local agent scratch (do not treat as formal archive)
+_agent_tmp/
